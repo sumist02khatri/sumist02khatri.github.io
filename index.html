@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+    content="Portfolio of Sumist Kumar Khatri: B.Tech CSE graduate, Java and Spring Boot developer.">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌸</text></svg>">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Sumist Kumar Khatri | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Noto+Sans+JP:wght@500;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="lock">
+  <div id="bar"></div>
+  <div id="cur"></div>
+  <div id="intro">
+    <div>
+      <div class="jp">ようこそ</div>
+      <h2>Welcome, traveler</h2><button class="btn" id="go">Enter the world</button>
+    </div>
+  </div>
+  <canvas id="c"></canvas>
+
+  <section id="top">
+    <div class="jp">夢を追うエンジニア</div>
+    <h1><span class="glitch" data-t="SUMIST">SUMIST</span></h1>
+    <p class="sub"><b>Sumist Kumar Khatri.</b> <span id="typ"></span></p>
+    <div class="btns"><a class="btn" href="#work">See my work</a><a class="btn alt" href="#contact">Say hi</a></div>
+    <div class="hint">Scroll to fly through the world ↓</div>
+  </section>
+
+  <section id="about">
+    <h2 class="rv">My story</h2>
+    <div class="glass rv"><b>B.Tech CSE</b> graduate (2026, CGPA 8.10) from Sarala Birla University. I build backend and
+      full-stack apps with <b>Java, Spring Boot, React and FastAPI</b>, and I like shipping ML projects too. Strong in
+      DSA and OOP, and looking for a <b>Software Engineer</b> role. Long-term dream: building my career in <b>Japan</b>.
+      🇯🇵</div>
+  </section>
+
+  <section id="skills">
+    <h2 class="rv">Power-ups</h2>
+    <div class="chips rv" id="chips"></div>
+  </section>
+
+  <section id="quest">
+    <h2 class="rv">Quest log</h2>
+    <div class="log">
+      <div class="glass rv">
+        <h3>Python Intern, Infosys Springboard</h3><small>Feb to Apr 2026, remote</small>Built Bimaverse, a full-stack
+        insurance comparison and claims platform with React, FastAPI, PostgreSQL, Tailwind CSS and JWT. Designed admin
+        dashboards, policy comparison and secure APIs using Clean Architecture.
+      </div>
+      <div class="glass rv">
+        <h3>Intern, Cisco Networking Academy</h3><small>Jun to Aug 2025, remote</small>Learned core cybersecurity,
+        threat awareness and secure networking, with hands-on Cisco Packet Tracer work.
+      </div>
+      <div class="glass rv">
+        <h3>B.Tech CSE, Sarala Birla University</h3><small>2022 to 2026, CGPA 8.10</small>Certifications: Cisco
+        Introduction to Cybersecurity, Cisco CCNA Introduction to Networks, Guvi Python.
+      </div>
+    </div>
+  </section>
+
+  <section id="work">
+    <h2 class="rv">Missions</h2>
+    <div class="grid">
+      <div class="card rv">
+        <h3>KitabDukan</h3>
+        <p>BookStore backend with RESTful APIs for book management. CRUD with Spring Data JPA and Hibernate, layered
+          Controller-Service-Repository design, MySQL storage.</p>
+        <p class="tags">Java, Spring Boot, JPA, MySQL, Maven</p>
+      </div>
+      <div class="card rv">
+        <h3>PESTSNAP</h3>
+        <p>Deep-learning rice pest classifier. Predicts the pest with a confidence score, gives recommendations and has
+          a chatbot. Containerized for deployment.</p>
+        <p class="tags">Python, YOLOv8, Streamlit, Ollama, Groq, Docker</p>
+      </div>
+      <div class="card rv">
+        <h3>Bimaverse</h3>
+        <p>Full-stack insurance comparison and claims platform with admin dashboards, policy comparison and secure JWT
+          APIs. Built during the Infosys internship.</p>
+        <p class="tags">React, FastAPI, PostgreSQL, Tailwind, JWT</p>
+      </div>
+      <div class="card rv">
+        <h3>Data Analytics</h3>
+        <p>Datasets cleaned, explored and turned into charts that tell a story. Add your tools and results here.</p>
+      </div>
+      <div class="card rv">
+        <h3>Java + DSA Arena</h3>
+        <p>Daily problem solving to sharpen interview skills. Add your platform and problem count.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="rv">Final boss: hire me</h2>
+    <div class="glass rv">Open to fresher Software Engineer, SDE and Data Science roles. Let's build something cool
+      together.
+      <div class="btns"><a class="btn" href="mailto:khatrisumist02@gmail.com">Email me</a><a class="btn alt"
+          href="https://www.linkedin.com/in/sumistkumarkhatri/" target="_blank" rel="noopener">LinkedIn</a><a
+          class="btn" href="https://github.com/sumist02khatri" target="_blank" rel="noopener">GitHub</a></div>
+    </div>
+  </section>
+
+  <div class="mq"><span>✦ 夢 DREAM BIG ✦ SDE ✦ JAVA ✦ SPRING BOOT ✦ REACT ✦ FASTAPI ✦ YOLOV8 ✦ DOCKER ✦ 日本へ行く ✦ OPEN TO
+      WORK ✦ 夢 DREAM BIG ✦</span></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/scene.js"></script>
+</body>
+
+</html>
